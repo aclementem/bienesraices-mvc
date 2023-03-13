@@ -1,0 +1,23 @@
+{
+    "name": "aclem/bienesraices-poo_inicio",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alex Clemente",
+            "email": "aclementem91@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models", 
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}
